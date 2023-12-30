@@ -1,6 +1,6 @@
 # --- CHANGE THESE ---
 
-minesweeper_us_output = # Paste minesweeper.us output here!
+minesweeper_us_output = # Paste output from https://minesweeper.us/ here!
 schem_name = 'my_board'
 
 
