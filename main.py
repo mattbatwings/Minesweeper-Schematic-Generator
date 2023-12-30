@@ -1,12 +1,11 @@
 # --- CHANGE THESE ---
 
-minesweeper_us_output = # Paste output from https://minesweeper.us/ here!
+minesweeper_us_output = [1, 1, [1]]
 schem_name = 'my_board'
 
 
 # --- DON'T CHANGE ANYTHING ELSE UNLESS YOU KNOW WHAT YOU'RE DOING ---
 
-import os
 import mcschematic
 
 width, height, board = tuple(minesweeper_us_output[:3])
@@ -41,5 +40,5 @@ for y in range(height):
 
     pos[0] += displacement
 
-schem.save(os.path.dirname(os.path.abspath(__file__)), schem_name, mcschematic.Version.JE_1_18_2)
+schem.save('.', schem_name, mcschematic.Version.JE_1_18_2)
 
